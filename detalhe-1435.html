@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trabalho de ALP - Grupo 7</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap_tema.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+     <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Trabalho de Lógica de Programação - GRUPO 7</a>
+          </div>
+        </div><!-- /.container-fluid -->
+      </nav>
+
+    </header>
+
+    <main>
+
+      <div class="container">
+        <div class="col-xs-12 col-sm-12 col-md-9">
+          <div class="row text-center">
+            <h1 class="text-uppercase">COMO IMPLEMENTAMOS O EXERCÍCIO 1435 NO SCRATCH</h1>
+            <blockquote>
+              <p>Explicação da lógica por trás da resolução do exercício 1435</p>
+            </blockquote>
+          </div>
+          <div class="row text-justify">
+		  <p><a href="https://scratch.mit.edu/projects/264666573/#fullscreen">Link para a animação no Sratch</a></p>
+		  <br /><br />
+		  <img src="thumb2.png" alt="thumbnail" width="240px" />
+           <p>Crie uma variavel (int) para receber o numero que o usuario digitar.</p>
+		  <p>Você precisara utilizar o if, pois se o usuario digitar '0' ou um número menor que 0 e maior que 100, o programa tem que ser finalizado.</p>
+		  <p>Crie uma matriz principal como vazia e preencha essa matriz principal com o numero 1 Utilizando os comandos "for "x" in range' e append.</p>
+		  <p>Agora você precisara criar 5 variaveis: 
+		  <br />Uma para receber o numero '1' para preencher os indices da matriz
+		  <br />Outra para armazenar o indice da primeira linha da matriz principal
+          <br />Outra para armazenar o indice da primeira coluna da matriz principal
+          <br />E outras duas para armazenar os indices da ultima linha e ultima coluna da matriz principal.</p>
+		  <p>Agora precisamos encontrar o indice central da matriz</p>
+		  <p>A divisão deverá resultar em um número inteiro, pois as matrizes não aceitam números reais como índice</p>
+		  <p>Ou seja, crie um 'if', Se numero % 2 == 0: Divida por 2 Senão some com + 1, e depois divida por 2!</p>
+		  <p>Agora você precisa preencher as partes externas da matriz com o numero 1 que está armazenada na variavel que recebeu o '1'</p>
+		  <p>Você terá que criar 3 while, para preencher a coluna com os numeros Utilize o comando i += i E depois faça contas de soma para preencher os numeros da parte de dentro da matriz</p>
+		  <p>Agora é a hora de preparar a exibição da matriz Você precisaram criar uma variavel que só servira para pular uma linha ao mostrar a matriz</p>
+		  <p>Por ultimo imprima a variavel com a linha em branco e a matriz e pronto!</p>
+		  <p>Para uma melhor compreensão, segue o algoritmo implementado na linguagem Python: <a href="1435uri.py">Link</a></p>
+
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-3">
+           <div class="thumbnail">
+            <div class="caption">
+              <h3>Integrantes do Grupo 7</h3>
+              <ul>
+                <li>Guilherme Freitas Araújo Silva</li>
+                <li>Gustavo Alves da Silva</li>
+                <li>José Carlos Alves Santos Junior</li>
+                <li>Juan Patrick de Andrade Santos</li>
+                <li>Leonardo Carvalho Pinheiro</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </main>
+
+    <footer style="background-color: #000;">
+      <div class="container text-center">
+        <p style="color:#fff">2018 - Trabalho de Lógica de Programação - Grupo 7</p>
+      </div>
+    </footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
